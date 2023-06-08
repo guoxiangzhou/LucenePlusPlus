@@ -1,7 +1,11 @@
 mkdir build
+
 cd build
+
 cmake .. -DLUCENE_BUILD_SHARED=OFF -DLUCENE_USE_STATIC_BOOST_LIBS=ON -DCMAKE_INSTALL_PREFIX=./install // options.cmake
+
 make -j16
+
 make install
 
 
